@@ -1,11 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruite-Brust</title>
+    <!-- tailwind-link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind-link -->
+    <!-- daisu-UI link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.2/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daisu-UI link -->
+
+    <!-- font-awsome-link -->
+    <script src="https://kit.fontawesome.com/a33d3e0046.js" crossorigin="anonymous"></script>
+    <!-- font-awsome-link -->
+    <!-- google-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- google-font -->
+    <style>
+        .lato {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+    <!-- custom-font -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- custom-font -->
 </head>
-<body>
-    
+
+<body class="lato">
+    <header>
+        <section class="nav-bar ">
+            <div class="navbar bg-[#F85559] text-white">
+                <div class="navbar-start">
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1">
+                            <li><a>Home</a></li>
+                            <li><a>About-us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All fruits</a></li>
+                        </ul>
+                    </div>
+                </div>
+            
+                <div>
+                    <img src="images/logo.png" alt="">
+                    <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
+
+                </div>
+
+                
+                  <div class="navbar-end form-control">
+                    <input type="text" placeholder="Search-Here" class="input input-bordered md:w-auto rounded-full "  />
+                  </div>
+          
+            </div>
+        </section>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>
